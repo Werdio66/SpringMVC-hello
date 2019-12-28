@@ -4,6 +4,7 @@
     <title>Title</title>
 </head>
 <body>
-    ${msg}
+    ${msg}<br>
+${string}
 </body>
 </html>

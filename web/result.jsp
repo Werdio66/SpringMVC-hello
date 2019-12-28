@@ -1,1 +1,2 @@
-result:${msg}
+result:${msg}<br>
+user = ${myUser}<br>

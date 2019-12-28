@@ -3,6 +3,7 @@ package com._520.springMVC.req;
 import com._520.springMVC.vo.ParamBean;
 import com._520.springMVC.vo.User;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -40,8 +41,8 @@ public class HandleRequestController {
     }
 
     @RequestMapping("/test6")
-    public User test6(User user){
+    public String test6(@ModelAttribute("myUser")User user){
         System.out.println(user);
-        return user;
+        return "forward:/result.jsp";
     }
 }

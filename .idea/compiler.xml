@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="SpringMVC-hello-xml" target="7" />
+      <module name="SpringMVC-hello-xml" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
